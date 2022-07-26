@@ -7,17 +7,52 @@
 
     <TextView
         android:id="@+id/tv_color_code_system"
-        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world"
-        android:textSize="30sp"/>
+        android:gravity="center"
+        android:text="代码设置系统自带颜色"
+        android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/tv_color_rgb"
-        android:gravity="center"
+        android:id="@+id/tv_color_code_eight_rgb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world"
-        android:textSize="30sp"/>
+        android:gravity="center"
+        android:text="八位文字颜色"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_color_code_six_rgb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="代码设置六位文字颜色"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_color_eight_xml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="布局文件设置六位文字颜色 不写透明度默认为不透明"
+        android:textColor="#ff0000ff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_color_values"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="资源文件引用六位文字颜色"
+        android:textColor="@color/blue"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_color_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="设置背景颜色"
+        android:background="@color/blue"
+        android:textSize="30sp" />
 </LinearLayout>
