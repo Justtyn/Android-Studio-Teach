@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TextView1</string>
+    <string name="tv_one">Hello world! Hello world! Hello world! Hello world! Hello world!</string>
+</resources>

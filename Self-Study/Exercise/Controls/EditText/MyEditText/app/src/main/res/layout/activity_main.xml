@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/et_name"
+        android:hint="请输入用户名"
+        android:inputType="text"
+        android:drawableLeft="@drawable/ic_baseline_people_24"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:background="@color/white"
+        android:textColorHint="#95a1aa"
+        android:layout_width="200dp"
+        android:layout_height="100dp"/>
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:hint="请输入手机号"
+        android:inputType="phone"
+        android:drawableLeft="@drawable/ic_baseline_stay_primary_portrait_24"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:background="@color/white"
+        android:textColorHint="#95a1aa"
+        android:layout_width="200dp"
+        android:layout_height="100dp"/>
+
+    <Button
+        android:id="@+id/btn_name"
+        android:text="获取用户名"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_phone"
+        android:text="获取手机号"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
